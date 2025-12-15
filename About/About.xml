@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Void Touched is not Disturbing</name>
+	<author>uranv</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>Void Touched is not Disturbing!</description>
+	<packageId>ur.voidtouchednotdisturbing</packageId>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>
