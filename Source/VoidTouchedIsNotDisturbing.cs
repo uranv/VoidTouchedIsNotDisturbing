@@ -1,17 +1,6 @@
 ﻿using HarmonyLib;
 using RimWorld;
-using RimWorld.Utility;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
 using Verse;
-using static HarmonyLib.Code;
-using static RimWorld.PsychicRitualRoleDef_DeathRefusalTarget;
 
 namespace VoidTouchedIsNotDisturbing
 {
@@ -20,7 +9,7 @@ namespace VoidTouchedIsNotDisturbing
     {
         static HarmonyPatches()
         {
-            Harmony harmony = new Harmony("rimworld.uranv.voidtouchednotdisturbing");
+            var harmony = new Harmony("rimworld.uranv.voidtouchednotdisturbing");
             harmony.PatchAll();
         }
     }
@@ -33,7 +22,7 @@ namespace VoidTouchedIsNotDisturbing
             if (__result && !__instance.traits.HasTrait(TraitDefOf.Disturbing))
             {
                 __result = false;
-                //Log.Error("[Modify Successed] Patched IsDisturbing for a Void-Touched pawn.");
+                //Log.Error("[Modify Success] Patched IsDisturbing for a Void-Touched pawn.");
             }
         }
     }

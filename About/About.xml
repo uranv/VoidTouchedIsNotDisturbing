@@ -3,7 +3,9 @@
 	<name>Void Touched is not Disturbing</name>
 	<author>uranv</author>
 	<supportedVersions>
+		<li>1.7</li>
 		<li>1.6</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<description>Void Touched is not Disturbing!</description>
 	<packageId>ur.voidtouchednotdisturbing</packageId>
